@@ -56,15 +56,47 @@
 		51933F6D289C64D0004CFD00 /* Spring&CoreAnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				51933F6E289C64D0004CFD00 /* AppDelegate.swift */,
-				51933F70289C64D0004CFD00 /* SceneDelegate.swift */,
-				51933F72289C64D0004CFD00 /* ViewController.swift */,
-				51933F74289C64D0004CFD00 /* Main.storyboard */,
-				51933F77289C64D2004CFD00 /* Assets.xcassets */,
-				51933F79289C64D2004CFD00 /* LaunchScreen.storyboard */,
-				51933F7C289C64D2004CFD00 /* Info.plist */,
+				51933F85289C671D004CFD00 /* ViewControllers */,
+				51933F84289C66F7004CFD00 /* Storyboards */,
+				51933F82289C66C3004CFD00 /* SystemFiles */,
+				51933F83289C66D1004CFD00 /* Media */,
 			);
 			path = "Spring&CoreAnimationApp";
+			sourceTree = "<group>";
+		};
+		51933F82289C66C3004CFD00 /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				51933F6E289C64D0004CFD00 /* AppDelegate.swift */,
+				51933F70289C64D0004CFD00 /* SceneDelegate.swift */,
+				51933F7C289C64D2004CFD00 /* Info.plist */,
+			);
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		51933F83289C66D1004CFD00 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				51933F77289C64D2004CFD00 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		51933F84289C66F7004CFD00 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51933F74289C64D0004CFD00 /* Main.storyboard */,
+				51933F79289C64D2004CFD00 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		51933F85289C671D004CFD00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51933F72289C64D0004CFD00 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,12 +321,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JHYJ3JUAMV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spring&CoreAnimationApp/Info.plist";
+				INFOPLIST_FILE = "Spring&CoreAnimationApp/SystemFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +350,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JHYJ3JUAMV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spring&CoreAnimationApp/Info.plist";
+				INFOPLIST_FILE = "Spring&CoreAnimationApp/SystemFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +366,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
